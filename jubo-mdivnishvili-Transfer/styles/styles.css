@@ -1,0 +1,175 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: 'Nunito';
+}
+
+#wrapper {
+    height: 100%;
+    opacity: 92%;
+}
+
+#wrapper #transfer-container {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 460px;
+    width: 677px;
+    margin-left: 30px;
+    margin-top: 45px;
+    box-shadow: 0px 15px 10px  gainsboro;
+    border-radius: 5px;
+}
+
+#wrapper #transfer-container h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    background-color: #5265E8;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: thin;
+}
+
+#wrapper #transfer-container h3 img {
+    position: absolute;
+    height: 12.35px;
+    width: 12.33px;
+    color: #FFFFFF;
+    right: 15px;
+    top: 22px;
+    cursor: pointer;
+}
+
+#wrapper #transfer-container #search-container {
+    position: relative;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+}
+
+#wrapper #transfer-container #search-container i {
+    position: absolute;
+    color: #9195B1;
+    font-size: 20px;
+    left: 35px;
+    top: 35px;
+}
+
+#wrapper #transfer-container #search-container form input {
+    height: 52px;
+    border: 2px solid #EEEEEE;
+    padding-left: 35px;
+    font-size: 16px;
+    width: 637px;
+    margin: auto;
+    border-radius: 26px;
+    outline: none;
+}
+
+#wrapper #transfer-container #search-container form input::placeholder {
+    color: #9195B1;
+}
+
+#wrapper #transfer-container span#agents {
+    display: inline-block;
+    height: 35px;
+    margin-left: 27px;
+    font-size: 16px;
+    color: #4A4A4A;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+
+#wrapper #transfer-container table {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+    border-collapse: separate;
+    margin-right: 5px;
+}
+
+#wrapper #transfer-container table tr {
+    color: #9195B1;
+}
+
+#wrapper #transfer-container table tr .pic {
+    width: 50px;
+}
+
+#wrapper #transfer-container table tr td img {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#wrapper #transfer-container table tr td {
+    height: 45px;
+}
+
+#wrapper #transfer-container table tr .serving .serv {
+    margin-left: 87px;
+    height: auto;
+}
+
+#wrapper  #transfer-container table tr:hover .serv {
+    display: none;
+}
+
+#wrapper  #transfer-container table tr:hover .transfer-button {
+    display: flex;
+}
+
+#wrapper #transfer-container table tr .name {
+    width: 180px;
+    padding-left: 10px;
+}
+
+#wrapper #transfer-container table tr .position {
+    width: 170px;
+    padding-left: 45px;
+}
+
+#wrapper #transfer-container table tr .active-status {
+    width: 50px;
+}
+
+#wrapper #transfer-container table tr .serving {
+    width: 190px;
+}
+
+.transfer-button {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 137px;
+    background-color: #5265E8;
+    color: white;
+    border-radius: 20px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+#wrapper #transfer-container table tr {
+    display: block;
+    font-size: 16px;
+}
+
+#wrapper  #transfer-container table tr:hover {
+    color: #5265e8;
+    border-radius:20px;
+    background-color:#ffff;
+    box-shadow: 0px 10px 30px 0px rgba(6, 16, 88, 0.07);
+    opacity:100%;
+}
+
+
